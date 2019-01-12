@@ -10,6 +10,8 @@ import { InscriptionsComponent } from './Components/inscriptions/inscriptions.co
 import { SliderComponent } from './Components/slider/slider.component';
 import { FooterComponent } from './Components/footer/footer.component';
 import { GalleryComponent } from './Components/gallery/gallery.component';
+import { SecondSectionComponent } from './Components/second-section/second-section.component';
+import { ContactsUsComponent } from './Components/contacts-us/contacts-us.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { GalleryComponent } from './Components/gallery/gallery.component';
     InscriptionsComponent,
     SliderComponent,
     FooterComponent,
-    GalleryComponent
+    GalleryComponent,
+    SecondSectionComponent,
+    ContactsUsComponent
   ],
   imports: [
     BrowserModule,
